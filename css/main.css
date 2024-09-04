@@ -5,3 +5,19 @@
   text-decoration: none;
   list-style: none;
 }
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#logo-img {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+}
+#hamburger-icon {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}

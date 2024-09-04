@@ -1,0 +1,8 @@
+/* Mobile */
+
+@media (max-width: 480px) {
+  nav {
+    padding: 20px;
+    background-color: blue;
+  }
+}
