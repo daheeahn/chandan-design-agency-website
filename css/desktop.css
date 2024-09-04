@@ -1,6 +1,7 @@
 nav {
   padding: 30px 135px;
   background-color: red;
+  /* background-color: #FFF; */
 }
 
 .crafting-container {
@@ -18,4 +19,26 @@ nav {
   position: absolute;
   top: 70px;
   right: 100px;
+}
+
+.elevate-container {
+  padding: 150px 170px;
+}
+.elevate-container > h1 {
+  font-size: 40px;
+  margin-bottom: 35px;
+}
+.elevate-container > p {
+  margin-bottom: 60px;
+}
+.elevate-container > .image-text-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 55px;
+}
+.elevate-container > .image-text-container > img {
+  width: 380px;
+  height: 380px;
+  object-fit: contain;
 }

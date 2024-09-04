@@ -4,6 +4,7 @@
   nav {
     padding: 20px;
     background-color: blue;
+    /* background-color: #FFF; */
   }
 
   .crafting-container {
@@ -26,5 +27,29 @@
     object-fit: contain;
     top: 210px;
     right: auto;
+  }
+
+  .elevate-container {
+    padding: 100px 20px;
+  }
+  .elevate-container > h1 {
+    font-size: 22px;
+    margin-bottom: 30px;
+  }
+  .elevate-container > p {
+    margin-bottom: 30px;
+  }
+  .elevate-container > .image-text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .elevate-container > .image-text-container > img {
+    width: 330px;
+    height: 310px;
+    object-fit: contain;
+  }
+  .elevate-container > .image-text-container > p {
+    text-align: center;
   }
 }
