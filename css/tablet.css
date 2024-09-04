@@ -3,8 +3,7 @@
 @media (max-width: 768px) {
   nav {
     padding: 30px 60px;
-    background-color: green;
-    /* background-color: #fff; */
+    background-color: #fff;
   }
 
   .crafting-container {
@@ -16,12 +15,13 @@
     line-height: 40px;
   }
   #crafting-img {
-    width: 300px;
-    height: 400px;
+    width: 40%;
+    min-width: 300px;
+    height: auto;
     object-fit: contain;
     position: absolute;
-    top: 0px;
-    right: 50px;
+    top: 10%;
+    right: 6%;
   }
 
   .elevate-container {

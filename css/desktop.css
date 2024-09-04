@@ -1,7 +1,6 @@
 nav {
   padding: 30px 135px;
-  background-color: red;
-  /* background-color: #FFF; */
+  background-color: #fff;
 }
 
 .crafting-container {
@@ -13,12 +12,13 @@ nav {
   line-height: 50px;
 }
 #crafting-img {
-  width: 490px;
-  height: 510px;
+  width: 35%;
+  min-width: 400px;
+  height: auto;
   object-fit: contain;
   position: absolute;
-  top: 70px;
-  right: 100px;
+  top: 10%;
+  right: 6%;
 }
 
 .elevate-container {
