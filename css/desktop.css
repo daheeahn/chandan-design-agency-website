@@ -2,3 +2,20 @@ nav {
   padding: 30px 135px;
   background-color: red;
 }
+
+.crafting-container {
+  padding: 160px 130px;
+}
+.crafting-container > h1 {
+  font-size: 40px;
+  margin-bottom: 40px;
+  line-height: 50px;
+}
+#crafting-img {
+  width: 490px;
+  height: 510px;
+  object-fit: contain;
+  position: absolute;
+  top: 70px;
+  right: 100px;
+}
