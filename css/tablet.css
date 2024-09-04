@@ -44,4 +44,26 @@
     height: 320px;
     object-fit: contain;
   }
+
+  .our-services-container {
+    padding: 60px;
+  }
+  .our-services-container > h1 {
+    font-size: 28px;
+    margin-bottom: 50px;
+  }
+  .service-card-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+    margin-bottom: 50px;
+  }
+  .service-card-item {
+    width: 100%;
+    height: 100%;
+  }
+  .service-card-item:nth-child(n + 5) {
+    display: none; /* Hide from the 5th item onward */
+  }
 }
