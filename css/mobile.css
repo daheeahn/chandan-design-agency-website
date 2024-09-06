@@ -331,7 +331,7 @@
 }
 .stay-update-with-blogs-title
 {
-  place-self: center start;
+  place-self: start stretch;
   margin: 0.3rem 0 0 3rem;
 }
 .stay-update-with-blogs-cont2
@@ -339,14 +339,14 @@
   background-color: #E9F4FF;
   grid-area: 2/1/3/2;
   border-radius: 1rem;
-  margin: 0  0 0 3.5rem;
+  margin: 0  0 0 5rem;
 }
 .stay-update-with-blogs-cont3
 {
   background-color: #E9F4FF;
   grid-area: 3/1/4/2;
   border-radius: 1rem;
-  margin: 0 0 0 3.4rem;
+  margin: 0 0 0 5rem;
 }
 .stay-update-with-blogs-cont4
 {
@@ -373,6 +373,7 @@
   border-radius: 0.5rem;
   border: 0;
   width: 8rem;
+  margin: 0 0 0 1.3rem;
   place-self: center;
 }
 .footer-cont

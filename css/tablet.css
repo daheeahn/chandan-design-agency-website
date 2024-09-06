@@ -309,6 +309,7 @@
 {
   display: grid;
   margin: 4rem 0 0 0;
+  gap: 1rem;
   grid-template-columns: repeat(3,1fr);
   grid-template-rows: repeat(3,1fr);
 }
@@ -358,7 +359,7 @@
 .stay-update-with-blogs-cont5
 {
   place-self: center;
-  grid-area: 3/1/4/4;
+  grid-area: 3/1/4/3;
 }
 .img-stay-update-with-blogs
 {
@@ -381,6 +382,7 @@
   border-radius: 0.5rem;
   border: 0;
   width: 8rem;
+  margin:0 0 0 4rem ;
   place-self: center;
 }
 .footer-cont
