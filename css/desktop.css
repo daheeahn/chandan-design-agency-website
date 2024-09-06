@@ -1,4 +1,65 @@
 nav {
   padding: 30px 135px;
   background-color: red;
+
+  background-color: #fff;
+}
+
+.crafting-container {
+  padding: 160px 130px;
+}
+.crafting-container > h1 {
+  font-size: 40px;
+  margin-bottom: 40px;
+  line-height: 50px;
+}
+#crafting-img {
+  width: 35%;
+  min-width: 400px;
+  height: auto;
+  object-fit: contain;
+  position: absolute;
+  top: 10%;
+  right: 6%;
+}
+
+.elevate-container {
+  padding: 150px 170px;
+}
+.elevate-container > h1 {
+  font-size: 40px;
+  margin-bottom: 35px;
+}
+.elevate-container > p {
+  margin-bottom: 60px;
+}
+.elevate-container > .image-text-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 55px;
+}
+.elevate-container > .image-text-container > img {
+  width: 380px;
+  height: 380px;
+  object-fit: contain;
+}
+
+.our-services-container {
+  padding: 80px 135px;
+}
+.our-services-container > h1 {
+  font-size: 40px;
+  margin-bottom: 80px;
+}
+.service-card-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 30px;
+  margin-bottom: 60px;
+}
+.service-card-item {
+  width: 100%;
+  height: 100%;
 }
