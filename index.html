@@ -9,17 +9,191 @@
     <link rel="stylesheet" href="./css/mobile.css" />
     <title>Chandan Design Agency Website</title>
   </head>
-  <body>
-    <!-- Header -->
     <header>
       <nav>
         <img id="logo-img" src="./assets/logo.png" />
         <img id="hamburger-icon" src="./assets/hamburger-icon.png" />
       </nav>
     </header>
-    <main></main>
+  <body>
+    <main>
+      <section class="crafting-container">
+        <h1>Crafting Visual Stories:<br />Unleashing Creative<br />Essence</h1>
+        <div class="lets-talk-button">
+          <p>Let's talk</p>
+          <img src="./assets/arrow-right.png" />
+        </div>
+        <img id="crafting-img" src="./assets/crafting-img.png" />
+      </section>
+      <section class="elevate-container">
+        <h1>Elevate Your Brand Identity</h1>
+        <p>
+          Unlock the true potential of your brand. Our passionate team of
+          creative experts is committed to delivering innovative and tailor-made
+          solutions that elevate your brand to new heights.
+        </p>
+        <div class="image-text-container">
+          <img src="./assets/elevate-img.png" />
+          <p>
+            We believe that a strong brand is the cornerstone of every
+            successful business. we are a passionate eam or branding experts
+            dedicated to helping businesses like yours create a unique and
+            compelling brand identity.<br /><br />
+
+            With our extensive experience and deep understanding of brand
+            strategy, design, and storytelling, we collaborate closely with our
+            clients to craft brand experiences that resonate with their target
+            audience. Our goal is to create brands that not only capture
+            attention but also foster trust, loyalty, and recognition
+          </p>
+        </div>
+      </section>
+      <section class="our-services-container">
+        <h1>Our Services</h1>
+
+        <section class="service-card-list">
+          <img class="service-card-item" src="./assets/our-services/1.png" />
+          <img class="service-card-item" src="./assets/our-services/2.png" />
+          <img class="service-card-item" src="./assets/our-services/3.png" />
+          <img class="service-card-item" src="./assets/our-services/4.png" />
+          <img class="service-card-item" src="./assets/our-services/5.png" />
+          <img class="service-card-item" src="./assets/our-services/6.png" />
+          <img class="service-card-item" src="./assets/our-services/7.png" />
+          <img class="service-card-item" src="./assets/our-services/8.png" />
+        </section>
+
+        <div class="request-quote-button-container">
+          <script>
+            // Function definition: Change text based on screen size.
+            function updateButtonText() {
+              const quoteText = document.getElementById("quote-button-text");
+              if (window.innerWidth <= 768) {
+                quoteText.textContent = "View more";
+              } else {
+                quoteText.textContent = "Request a Quote";
+              }
+            }
+
+            // Handle text change on page load and window resize.
+            window.addEventListener("resize", updateButtonText);
+            window.addEventListener("load", updateButtonText);
+          </script>
+
+          <!-- Above <div> is added for auto width -->
+          <div class="request-quote-button">
+            <p id="quote-button-text">Request a Quote</p>
+            <img src="./assets/arrow-right.png" />
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 
   <!-- Footer -->
-  <footer></footer>
+  <footer>    <div class="happy-stories-of-our-clients-container">
+    <div class="happy-stories-of-our-clients-cont1"><h2 class="title1-happy-stories-of-our-clients">Happy <span class="underlign-blue-happy-stories-of-our-clients"> stories </span> of our clients</h2></div>
+    <div class="happy-stories-of-our-clients-cont2"><img src="assets/Happy-stories-of-our-clients-arrow.png" class="arrow-right-happy-stories-of-our-clients"></div>
+    <div class="happy-stories-of-our-clients-cont3">
+      <div class="happy-stories-of-our-clients-cont3-1"><img src="assets/Rectangle 3.png" class="img-happy-stories-of-our-clients-cont3-1"></div>
+      <div class="happy-stories-of-our-clients-cont3-1-1"><img src="assets/quotation.png" class="img-happy-stories-of-our-clients-cont3-2"></div>
+      <div class="happy-stories-of-our-clients-cont3-2"><p class="paragraph-happy-stories-of-our-clients-cont3-2">Their design process is really unique. they collaborated with us on our project.the communicationwas simple and transparent. Theyhave a talented tem of designers who understands the insights very clearly and continues to push their efforts. </p></div>
+    </div>
+    <div class="progress-indicators">
+      <div class="indicator active"></div> 
+      <div class="indicator"></div>         
+      <div class="indicator"></div>         
+    </div>
+    <div class="happy-stories-of-our-clients-cont4"><img src="assets/Happy-stories-of-our-clients-arrow.png" class="arrow-right-happy-stories-of-our-clients"></div>
+    <div class="happy-stories-of-our-clients-cont5"><h2 class="title2-happy-stories-of-our-clients"><span class="underlign-blue-happy-stories-of-our-clients">Contact</span> us today</h2></div>
+</div>
+<div class="contact-us-today-container">
+  <div class="contact-us-today-container-color"></div>
+  <div class="contact-us-today-cont1">
+    <div class="contact-us-today-cont1-1">
+      <div class="contact-us-today-cont1-1-1"><img src="assets/location.png" class="contact-us-today-cont1-1-1-right"></div>
+      <div class="contact-us-today-cont1-1-2"><h3>Office Addres</h3></div>
+      <div class="contact-us-today-cont1-1-3"><p>66 Road brookling street, 600</p></div>  
+    </div>
+    <div class="contact-us-today-cont1-2">
+      <div class="contact-us-today-cont1-2-1"><img src="assets/Vector.png" class="contact-us-today-cont1-1-1-right"></div>
+      <div class="contact-us-today-cont1-2-2"><h3>Contact No</h3></div>
+      <div class="contact-us-today-cont1-2-3"><p>(509) 562-1912</p></div>  
+    </div>
+    <div class="contact-us-today-cont1-3">
+      <div class="contact-us-today-cont1-3-1"><img src="assets/sms.png" class=""></div>
+      <div class="contact-us-today-cont1-3-2"><h3>Email</h3></div>
+      <div class="contact-us-today-cont1-3-3"><p>contact@creativedesign</p></div>  
+    </div>
+  </div>
+  <div class="contact-us-today-cont2">
+    <div class="contact-us-today-cont2-1"><p class="name-contact-us-today-cont">Name*</p></div>
+    <div class="contact-us-today-cont2-2"><form action=""><input type="text" placeholder="  Name" class="form-name-contact-us-today"></form></div>
+    <div class="contact-us-today-cont2-3"><p class="phone-contact-us-today">Phone No</p></div>
+    <div class="contact-us-today-cont2-4"><form action=""><input type="tel" placeholder=" Phone No" class="form-phone-contact-us-today"></form></div>
+    <div class="contact-us-today-cont2-5"><p class="email-contact-us-today">Email</p></div>
+    <div class="contact-us-today-cont2-6"><form action=""><input type="email" placeholder=" Email" class="form-email-contact-us-today"></form></div>
+    <div class="contact-us-today-cont2-7"><p class="company-contact-us-today">Company Name</p></div>
+    <div class="contact-us-today-cont2-8"><form action=""><input type="text" placeholder="  Company Name" class="form-company-contact-us-today"></form></div>
+    <div class="contact-us-today-cont2-9"><button type="submit" class="button-contact-us-today"><pre>Submit &#8594;</pre></button></div>
+  </div>
+</div>
+<div class="stay-update-with-blogs-cont">
+  <div class="stay-update-with-blogs-cont1"><h1 class="stay-update-with-blogs-title">Stay <span class="stay-update-with-blogs-title-blue">updated </span>with Blogs</h1></div>
+  <div class="stay-update-with-blogs-cont2">
+    <div class="stay-update-with-blogs-cont2-1"><img src="assets/Cover img.png" class="stay-update-with-blogs-img"></div>
+    <div class="stay-update-with-blogs-cont2-2"><p class="margin-stay-update-with-blogs">Basic rule of running a web agency busines</p></div>
+    <div class="stay-update-with-blogs-cont2-3"><p class="padding-stay-update-with-blogs">read more &#8594;</p></div>
+  </div>
+  <div class="stay-update-with-blogs-cont3">
+    <div class="stay-update-with-blogs-cont3-1"><img src="assets/Cover img (1).png" class="stay-update-with-blogs-img"></div>
+    <div class="stay-update-with-blogs-cont3-2"><p class="margin-stay-update-with-blogs">Understanding diferent types of marketing data</p></div>
+    <div class="stay-update-with-blogs-cont3-3"><p class="padding-stay-update-with-blogs">read more &#8594;</p></div>
+  </div>
+  <div class="stay-update-with-blogs-cont4">
+    <div class="stay-update-with-blogs-cont4-1"><img src="assets/Cover img (2).png" class="stay-update-with-blogs-img"></div>
+    <div class="stay-update-with-blogs-cont4-2"><p class="margin-stay-update-with-blogs">Understanding the users need to grow your busines</p></div>
+    <div class="stay-update-with-blogs-cont4-3"><p class="padding-stay-update-with-blogs">read more &#8594;</p></div>
+  </div>
+  <div class="stay-update-with-blogs-cont5"><button type="button" class="button-stay-update-with-blogs">View all </button></div>
+</div>
+<div class="footer-cont">
+  <div class="footer-cont1">
+    <div class="footer-cont1-1"><img src="assets/logo.png" class="logo-img-footer"></div>
+    <div class="footer-cont1-2"><img src="assets/Social icon 1.png" alt=""></div>
+    <div class="footer-cont1-3"><img src="assets/Social icon 2.png" alt=""></div>
+    <div class="footer-cont1-4"><img src="assets/Social icon 3.png" alt=""></div>
+    <div class="footer-cont1-5"><img src="assets/Social icon 4.png" alt=""></div>
+  </div>
+  <div class="footer-cont2">
+    <div class="footer-cont2-contact"><h3>Contact</h3></div>
+    <div class="footer-cont2-1">
+      <div class="footer-cont2-1-1"><img src="assets/location-white.png.png" alt=""></div>
+      <div class="footer-cont2-1-2"><p>66 road brooklyn street, 600</p></div>
+    </div>
+    <div class="footer-cont2-2">
+      <div class="footer-cont2-2-1"><img src="assets/call-white.png" alt=""></div>
+      <div class="footer-cont2-2-2"><p>(509) 562-1912</p></div>
+    </div>
+    <div class="footer-cont2-3">
+      <div class="footer-cont2-3-1"><img src="assets/sms-white.png.png" alt=""></div>
+      <div class="footer-cont2-3-2"><p>contact@creativedesign</p></div>
+    </div>
+  </div>
+  <div class="footer-cont3">
+    <div class="footer-conteiner3-1"><h3>Explore</h3></div>
+    <div class="footer-conteiner3-2"><p>About</p></div>
+    <div class="footer-conteiner3-3">Our Team</div>
+    <div class="footer-conteiner3-4">Shop</div>
+    <div class="footer-conteiner3-5">Career</div>
+    <div class="footer-conteiner3-6">Blog</div>
+  </div>
+  <div class="footer-cont4">
+    <div class="footer-cont4-1"><h3>Subscribe to our newsletter</h3></div>
+    <div class="footer-cont4-2"><p class="footer-cont4-2-email">Email*</p></div>
+    <div ><form action="submit"><input type="email" placeholder=" Your email here" class="footer-cont4-3"></form></div>
+    <div class="footer-cont4-4"><p class="footer-cont4-2-email">By subscribing you agree to our Terms & Conditions</p></div>
+    <div ><button class="footer-cont4-5">Subscribe &#8594;</button></div>
+  </div>
+  <div class="footer-cont-5"> <p class="footer-cont5-1">2023 Creative Design Agency All Rights Reserved</p></div>
+</div></footer>
 </html>
