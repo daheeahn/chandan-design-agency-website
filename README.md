@@ -12,4 +12,8 @@ This design is from https://www.figma.com/community/file/1279079738685247219 by 
 
 ### Contributor
 
-What [@daheeahn](https://github.com/daheeahn) and [@HNassifBraga](https://github.com/HNassifBraga) worked on:
+What [@daheeahn/Dahee Ahn](https://github.com/daheeahn) and [@HNassifBraga/Henrique](https://github.com/HNassifBraga) worked on:
+
+<img src="./assets/work-part.png" alt="Project Preview" width="500" height="2000">
+
+- (This is the original screenshot from Figma)
