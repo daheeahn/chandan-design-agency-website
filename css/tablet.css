@@ -3,8 +3,7 @@
 @media (max-width: 768px) {
   nav {
     padding: 30px 60px;
-    background-color: green;
-    /* background-color: #FFF; */
+    background-color: #fff;
   }
 
   .happy-stories-of-our-clients-container {
