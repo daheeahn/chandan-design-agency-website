@@ -1,6 +1,6 @@
 ### Introduction
 
-This is the 2st Team Project at Tamwood
+This is the 2nd Team Project at Tamwood
 
 ### Objective
 
